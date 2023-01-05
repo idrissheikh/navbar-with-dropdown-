@@ -1,0 +1,33 @@
+.dropdown-menu{
+    width: 200px;
+    position:absolute;
+    top:80px;
+    list-style: none;
+    text-align: start;
+    
+}
+
+.dropdown-menu li{
+    background-color: rgb(85, 35, 45);
+    color: rgb(12, 89, 156);
+    cursor: pointer;
+}
+
+.dropdown-menu li :hover{
+    background-color: rgb(85, 35, 45);
+    color: aliceblue;
+}
+
+.dropdown-menu.clicked{
+    display: noen;
+}
+
+.dropdown-link{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration:none;
+    color:aliceblue;
+    padding: 15px;
+}
+
