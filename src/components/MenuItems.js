@@ -1,7 +1,7 @@
 export const MenuItems =[
     {
         title : 'Marketing',
-        path : '/markting',
+        path : '/marketing',
         cName: 'dropdwon-link'
     },
     {
@@ -9,14 +9,10 @@ export const MenuItems =[
         path : '/consulting',
         cName: 'dropdwon-link'
     },
+  
     {
-        title : 'Design',
-        path : '/design',
-        cName: 'dropdwon-link'
-    },
-    {
-        title: 'Development',
-        path : '/development',
+        title: 'Services',
+        path : '/services',
         cName: 'dropdwon-link'
     },
   

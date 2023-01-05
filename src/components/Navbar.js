@@ -7,7 +7,7 @@
  function Navbar() {
 
     const [click, setClick] = useState(false);
-    const [dropdown ,setDropdown    ] = useState(false);
+    const [dropdown ,setDropdown] = useState(false);
     const handleClick = () => setClick(!click);
     const closMobileMenu = () => setClick(false);
 
@@ -90,10 +90,6 @@
         </ul>
         <Button />
       </nav>
-    
-       
-
-    
     </>
    )
  }

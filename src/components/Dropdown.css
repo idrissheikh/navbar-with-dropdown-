@@ -14,7 +14,7 @@
 }
 
 .dropdown-menu li :hover{
-    background-color: rgb(85, 35, 45);
+    background-color: rgb(43, 35, 85);
     color: aliceblue;
 }
 
@@ -31,3 +31,8 @@
     padding: 15px;
 }
 
+@media screen and (max-width: 960px) {
+    .fa-caret-down {
+      display: none;
+    }
+  }
